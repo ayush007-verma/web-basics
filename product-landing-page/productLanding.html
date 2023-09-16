@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Original Trombones</title>
+  <style>
+    .logo{
+      position: relative;
+      display:flex;
+    }
+    #nav-bar {
+      position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff; /* Add a background color if needed */
+  z-index: 999; /* Set a high z-index to ensure it's above other elements */
+
+    }
+
+    @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="page-wrapper" >
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container"></div>
+
+    <section id="hero">
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+        <input id="submit" type="submit" value="Get Started" class="btn">
+      </form>
+    </section>
+
+    <div class="container">
+      <section id="features">
+        <!-- Your existing features content here -->
+      </section>
+      <section id="how-it-works">
+        <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+      </section>
+      <section id="pricing">
+        <!-- Your existing pricing content here -->
+      </section>
+      <footer>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2016, Original Trombones</span>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
